@@ -65,7 +65,7 @@ function clearVar( name = ''){
 
 
 function mathOperation(){
- if(lastOperation ==='X'){
+ if(lastOperation ==='x'){
 
     result = parseFloat(result) *  parseFloat(dis2Num);
  }
@@ -141,7 +141,7 @@ window.addEventListener( 'keydown', (e) => {
  } else if(
      e.key === '*'
  ){
-     clickOperation('X');
+     clickOperation('x');
  }
  else if ((e.key ==='Enter') || e.key === '='){
  clickEqual();
